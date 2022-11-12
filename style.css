@@ -7,7 +7,6 @@ body
 	font-family: "Times New Roman", Arial, sans-serif;
 	color: #181818;
     font-size: 0.85em;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 h1
@@ -92,4 +91,41 @@ li
     border: 3px lightseagreen solid;
     padding: 5px;
     margin: 10px 10px 10px 10px;
+}
+
+.section1
+{
+    width: 500px;
+    height: 300px;
+}
+
+.section2
+{
+    width: 500px;
+    height: 300px;
+}
+
+.section3
+{
+    width: 500px;
+    height: 300px;
+}
+
+.section4
+{
+    width: 500px;
+    height: 300px;
+}
+
+#conteneur1
+{
+    margin: auto;
+    display: inline-flex;
+    align-content: space-between;
+}
+
+#conteneur2
+{
+    display: inline-flex;
+    align-content: space-between; 
 }
