@@ -2,16 +2,17 @@
 
 body
 {
-	background:  azure;
+	background:  rgb(189, 243, 235);
 	background-repeat: no-repeat;
 	font-family: "Times New Roman", Arial, sans-serif;
 	color: #181818;
     font-size: 0.85em;
+    text-align: center;
 }
 
 h1
 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;  
 }
 h2
@@ -45,7 +46,7 @@ li
 #titre_principal
 {
     width: 50%;
-    margin: auto;
+    margin: 200px;
 	display: center;
 	flex-direction: column;
 	justify-content: space-around;
@@ -84,14 +85,10 @@ li
     clear: left;
     font-size: 13px;
     font-style: italic;
+    text-align: left;
+    margin-left: 50px;
 }
 
-.mon_rêve
-{
-    border: 3px lightseagreen solid;
-    padding: 5px;
-    margin: 10px 10px 10px 10px;
-}
 
 .section1
 {
@@ -119,13 +116,24 @@ li
 
 #conteneur1
 {
-    margin: auto;
     display: inline-flex;
     align-content: space-between;
+    margin-top: 50px;
 }
 
 #conteneur2
 {
     display: inline-flex;
     align-content: space-between; 
+}
+
+.mon_rêve
+{
+    text-align: center;
+    border: 3px lightseagreen solid;
+    height: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
 }
